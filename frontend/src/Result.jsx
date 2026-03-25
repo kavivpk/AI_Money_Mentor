@@ -255,6 +255,8 @@ const Result = ({ data, onReset }) => {
                 </Pie>
                 <Tooltip
                   contentStyle={{ background: "#0f172a", border: "1px solid #1e293b", borderRadius: "10px" }}
+                  itemStyle={{ color: "#fff" }}
+                  labelStyle={{ color: "#fff" }}
                   formatter={(value) => formatCurrency(value)}
                 />
                 <Legend iconType="circle" wrapperStyle={{ fontSize: "12px", paddingTop: "10px" }} />
@@ -272,6 +274,8 @@ const Result = ({ data, onReset }) => {
                 <Tooltip
                   cursor={{ fill: 'rgba(255,255,255,0.02)' }}
                   contentStyle={{ background: "#0f172a", border: "1px solid #1e293b", borderRadius: "10px" }}
+                  itemStyle={{ color: "#fff" }}
+                  labelStyle={{ color: "#fff" }}
                   formatter={(value) => formatCurrency(value)}
                 />
                 <Bar dataKey="amount" radius={[8, 8, 0, 0]}>
